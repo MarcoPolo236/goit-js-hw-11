@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { fetchImg } from './Java/pixabay-api';
-import { createGallery, clearGallery } from './java/render-functions';
+import { createGallery, clearGallery } from './Java/render-functions';
 
 const form = document.querySelector('.search-form');
 const loader = document.querySelector('.loader');
